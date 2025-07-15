@@ -5,11 +5,6 @@
   "author": "Steve Simkins",
   "license": "MIT",
   "homepage": "https://github.com/stevedylandev/bhvr",
-  "workspaces": [
-    "./server",
-    "./client",
-    "./shared"
-  ],
   "scripts": {
     "dev:client": "cd client && bun run dev",
     "dev:server": "cd server && bun run dev",
